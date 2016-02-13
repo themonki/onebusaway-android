@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010-2014 Paul Watts (paulcwatts@gmail.com)
+    and individual contributors.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <string name="app_name">OneBusAway MIO</string>
+
+    <!-- See src/main/res/strings.xml for more strings you can override here -->
+
+    <!--  Option strings -->
+    <string name="main_nolocation">A OneBusAway MIO le gustaria saber tú ubicación, ¿Quieres activarlo
+        ahora?
+    </string>
+
+    <!-- Find -->
+    <string name="route_shortcut">Ruta de OneBusAway MIO</string>
+    <string name="stop_shortcut">Parada de OneBusAway MIO</string>
+
+    <!-- Report problem -->
+    <string name="report_problem_hint">¡Tus reportes ayudan a OneBusAway MIO a encontrar y arreglar los problemas!</string>
+
+    <!--  Bug report -->
+    <string name="bug_report_subject">OneBusAway MIO Android: Comentarios</string>
+
+    <!-- Application Preferences -->
+    <string name="preferences_arrival_info_style_options_a">OneBusAway MIO clásica</string>
+    <string name="preferences_db_restored">¡Restauración exitosa! Por favor reinicia OneBusAway MIO.</string>
+
+    <!-- Tutorials -->
+    <string name="tutorial_welcome_title">¡Bienvenido a OneBusAway MIO!</string>
+    <string name="tutorial_welcome_text">Toca una parada (punto azul en el mapa) para ver los tiempos
+        de llegada.
+    </string>
+    <string name="tutorial_arrival_header_arrival_info_text">¡Largo tiempo! El color de fondo te indica
+        si el bus esta adelantado (rojo) o va atrasado (azul oscuro). Si es verde se encuentra a tiempo. Si nosotros nos sabemos
+        donde se encuentra el bus, se muestra el tiempo planificado (gris).
+    </string>
+
+    <!-- About -->
+    <string name="about_text">
+        "Este es un brand adaptado de OneBusAway para tener los datos del MIO de la ciudad de Santiago de Cali, Colombia\n\n"
+
+        "Obtenga mas información sobre el proyecto de código abierto OneBusAway en http://onebusaway.org.\n\n"
+
+        "*** Código ***\n\n"
+
+        "Nos gustaría agradecer a las siguientes personas que han contribuido en el código para OneBusAway Android:\n\n"
+
+        "* Paul Watts\n"
+        "* Brian Ferris\n"
+        "* Daniel Welsh\n"
+        "* Arno Hart\n"
+        "* Sean Barbeau\n"
+        "* York Region Transit\n"
+        "* Ben Du\n"
+        "* Cagri Cetin\n"
+        "* Mike Karabushin\n"
+        "* Aziz Batihk\n"
+        "* Charles Bond\n\n"
+
+        "¿Quieres contribuir a esta aplicación? Revísalo tú mismo en Github en
+        https://github.com/OneBusAway/onebusaway-android.\n\n"
+
+        "*** Traducciones ***\n\n"
+
+        "Nos gustaría agradecer a quienes han contribuido a las traducciones de OneBusAway Android:\n\n"
+
+        "* Ari Rusakko\n"
+        "* Edgar Andrés Moncada Taborda\n\n"
+
+        "*** Imágenes ***\n\n"
+
+        "Gracias a los diseñadores que crearon las imágenes utilizadas en los iconos de vehículos, que fueron subidos "
+        "a el Noun Project bajo CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/us/):\n\n"
+
+        "* Flechas por Zlatko Najdenovski, MK\n"
+        "* Marcador en el Mapa por Housin Aziz, SE\n\n"
+        "* Incógnito por Christopher Schreiner\n"
+        "* Bandera Triángulo por Austin Andrews\n\n"
+
+        "Gracias a Google por los iconos de material design
+        (https://github.com/google/material-design-icons), "
+        "licenciadas bajo CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/).\n\n"
+    </string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010-2014 Paul Watts (paulcwatts@gmail.com)
+    and individual contributors.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <string name="app_name">OneBusAway MIO</string>
+
+    <!-- See src/main/res/strings.xml for more strings you can override here -->
+
+    <!--  Option strings -->
+    <string name="main_nolocation">OneBusAway MIO would like your location, do you want to enable it
+        now?
+    </string>
+
+    <!-- Find -->
+    <string name="route_shortcut">OneBusAway MIO Route</string>
+    <string name="stop_shortcut">OneBusAway MIO Stop</string>
+
+    <!-- Report problem -->
+    <string name="report_problem_hint">Your reports help OneBusAway MIO find and fix problems!</string>
+
+    <!--  Bug report -->
+    <string name="bug_report_subject">OneBusAway MIO Android: Feedback</string>
+
+    <!-- Application Preferences -->
+    <string name="preferences_arrival_info_style_options_a">OneBusAway classic</string>
+    <string name="preferences_db_restored">Restore successful! Please restart OneBusAway MIO.</string>
+
+    <!-- Tutorials -->
+    <string name="tutorial_welcome_title">Welcome to OneBusAway MIO!</string>
+    <string name="tutorial_welcome_text">Tap on a stop (blue dot on the map) to see arrival
+        times.
+    </string>
+    <string name="tutorial_arrival_header_arrival_info_text">This long! Colored background tells you
+        if the bus is early (red) or late (blue). On time = green background. If we don\'t know
+        where the bus is, the scheduled time is shown (gray background).
+    </string>
+
+    <!-- About -->
+    <string name="about_text">
+        "This is a brand from OneBusAway adapted to have data of MIO of city Santiago de Cali, Colombia\n\n"
+
+        "Find out more about the OneBusAway open-source project at http://onebusaway.org.\n\n"
+
+        "*** Code ***\n\n"
+
+        "We'd like to thank the following who have contributed code to OneBusAway Android:\n\n"
+
+        "* Paul Watts\n"
+        "* Brian Ferris\n"
+        "* Daniel Welsh\n"
+        "* Arno Hart\n"
+        "* Sean Barbeau\n"
+        "* York Region Transit\n"
+        "* Ben Du\n"
+        "* Cagri Cetin\n"
+        "* Mike Karabushin\n"
+        "* Aziz Batihk\n"
+        "* Charles Bond\n\n"
+
+        "Want to contribute to this app? Check it out on Github at
+        https://github.com/OneBusAway/onebusaway-android.\n\n"
+
+        "*** Translations ***\n\n"
+
+        "We'd like to thank those who have contributed translations to OneBusAway Android:\n\n"
+
+        "* Ari Rusakko\n"
+        "* Edgar Andrés Moncada Taborda\n\n"
+
+        "*** Images ***\n\n"
+
+        "Thanks to the designers who created images used in the vehicle icons, which were uploaded "
+        "to the Noun Project under CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/us/):\n\n"
+
+        "* Arrow by Zlatko Najdenovski, MK\n"
+        "* Map Marker by Housin Aziz, SE\n"
+        "* Incognito by Christopher Schreiner\n"
+        "* Flag Triangle by Austin Andrews\n\n"
+
+        "Thanks to Google for the material design icons
+        (https://github.com/google/material-design-icons), "
+        "licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/).\n\n"
+    </string>
+</resources>

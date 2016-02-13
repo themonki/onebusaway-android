@@ -185,6 +185,33 @@ android {
         /**
          * Add more rebranding flavors here...
          */
+        MIO {
+            dimension "brand"
+            applicationId "com.mio.onebusaway" // Unique listing of this brand on app store
+            manifestPlaceholders = [databaseAuthority: applicationId.toString() + '.provider']
+            buildConfigField "int", "ARRIVAL_INFO_STYLE", "0"  // Defined in BuildFlavorConstants
+            buildConfigField "boolean", "USE_FIXED_REGION", "true" // Supports multi-region
+            // Below fields need to be defined so flavor builds, but will not be used by app
+            buildConfigField "String", "FIXED_REGION_NAME", "\"MIO (CALI-CO)\""
+            buildConfigField "String", "FIXED_REGION_OBA_BASE_URL", "\"http://software.metrocali.gov.co:8080/api\""
+            buildConfigField "String", "FIXED_REGION_SIRI_BASE_URL", "null"
+            buildConfigField "double", "FIXED_REGION_BOUNDS_LAT", "3.394816665"
+            buildConfigField "double", "FIXED_REGION_BOUNDS_LON", "-76.52067222"
+            buildConfigField "double", "FIXED_REGION_BOUNDS_LAT_SPAN", "0.20809332999999963"
+            buildConfigField "double", "FIXED_REGION_BOUNDS_LON_SPAN", "0.11482777999999882"
+            buildConfigField "String", "FIXED_REGION_LANG", "\"es_CO\""
+            buildConfigField "String", "FIXED_REGION_CONTACT_EMAIL", "\"gtfs@mio.com.co\""
+            buildConfigField "boolean", "FIXED_REGION_SUPPORTS_OBA_DISCOVERY_APIS", "true"
+            buildConfigField "boolean", "FIXED_REGION_SUPPORTS_OBA_REALTIME_APIS", "true"
+            buildConfigField "boolean", "FIXED_REGION_SUPPORTS_SIRI_REALTIME_APIS", "false"
+            buildConfigField "String", "FIXED_REGION_TWITTER_URL", "\"https://twitter.com/metrocali\""
+            buildConfigField "String", "FIXED_REGION_STOP_INFO_URL", "null"
+            buildConfigField "String", "FIXED_REGION_OPEN311_JURISDICTION_ID", "null"
+            buildConfigField "String", "FIXED_REGION_OPEN311_API_KEY", "null"
+            buildConfigField "String", "FIXED_REGION_OPEN311_BASE_URL", "null"
+            buildConfigField "String", "FIXED_REGION_OTP_BASE_URL", "null"
+            buildConfigField "String", "FIXED_REGION_OTP_CONTACT_EMAIL", "null"
+        }
     }
 
     /**
